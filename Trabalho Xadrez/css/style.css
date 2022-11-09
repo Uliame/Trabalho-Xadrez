@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    background-image: url('../img/home-bg.jpg');
+    background-size:100%;
+    
+    overflow: auto
+}
+
+div.container{
+    min-width: 1280px;
+    width: 80%;
+    
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 0 auto;
+    
+}
+
+header.cabecalho{
+    width: 100%;
+    background-color: #512000;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    padding: 1%;
+    box-sizing: border-box
+}
+
+div.logo{
+    float: left
+}
+
+div.logo img{
+    width: 80px;
+    margin-top: -15px
+}
+
+nav.menu{
+    background-color: #cdb8a5;
+    margin-top: -17px
+}
+
+nav.menu ul{
+    list-style: none;
+    padding: 25px
+}
+
+nav.menu li{
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+
+nav.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.3)
+}
+
+nav.menu a:hover{
+    background-color: #512000;
+    transition: background-color 0.5s;
+    text-decoration: underline
+}
+
+article.conteudo h1{
+    font-size: 30px;
+    color: #512000;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3)
+}
+
+article.conteudo h2{
+    font-size: 20px;
+    color: #512000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+article.conteudo h3{
+    font-size: 15px;
+    color: #512000;
+    padding: 0px 40px
+}
+
+article.conteudo h4{
+    font-size: 20px;
+    color: #512000;
+    text-align: center
+}
+
+article.conteudo p{
+    font-size: 17px;
+    padding: 0px 20px;
+    text-indent: 20px;
+    text-align: justify
+}
+
+ul.fotos{
+    list-style: none;
+    text-align: center
+}
+ul.fotos li{
+    display: inline-block;
+}
+
+ul.fotos img{
+    width: 300px;
+    margin-right: 110px
+}
+
+ul.fotos p {
+    font-size: 9px;
+    padding-left: 50px
+}
+
+footer.rodape{
+    text-align: center;
+    height: 80px;
+    background-color: #cdb8a5;
+    padding-top: 5px;
+    padding-right: 10px;
+    background-image: url('../img/footer-bg.jpg');
+}
+
+footer.rodape p{
+    font-size: 15px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.tabuleiro{
+    text-align: center
+}
+
+.peças{
+    text-align: center;
+}
+
